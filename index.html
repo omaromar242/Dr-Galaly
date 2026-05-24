@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- info -->
+<!-- info -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,59 +9,135 @@
     <meta name="author" content="Dr galaly">
     <meta http-equiv="refresh" content="@">
     <title>Dr galaly</title>
+
     <style>
-    body {
-      background-color: black; /* sets background to black */
-      color: rgb(228, 219, 219); /* makes text readable */
-      margin: 0; /* optional: remove default margin */
-    }
-  </style>
+        body {
+            background-color: black;
+            color: rgb(228, 219, 219);
+            margin: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        table {
+            margin: 10px;
+        }
+
+        h1, p {
+            text-align: center;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+
+        hr {
+            width: 80%;
+        }
+
+        .topbar {
+            position: sticky;
+            top: 0;
+            background-color: #111;
+            padding: 12px;
+            text-align: center;
+            z-index: 1000;
+            border-bottom: 1px solid #333;
+        }
+
+        .topbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .topbar a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding-top: 20px;
+        }
+    </style>
 </head>
 <body>
+
+<div class="topbar">
+    <a href="#physics">Physics</a>
+    <a href="#math">Math</a>
+</div>
+
 <table border="1">
     <thead>
-    <tr>
-        <td>Dr galaly</td>
-    </tr>
+        <tr>
+            <td>Dr galaly</td>
+        </tr>
     </thead>
 </table>
-<h1 style="text-align: center;">Welcome to Dr galaly Website</h1>
-<div style="text-align: center;">
-<br>
-        <h1>Physics</h1>
-        <hr>
-        <p>ch1</p>
-<iframe src="https://drive.google.com/file/d/1bf7FEp39-qWt0xV-krIT3ZX8K1fhY1-o/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5"
-        title="Lecture 2"
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
-    
-        <p>ch2</p>
-<iframe src="https://drive.google.com/file/d/1bf7FEp39-qWt0xV-krIT3ZX8K1fhY1-o/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5"
-        title="Lecture 2"
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
-            <p>ch3</p>
-<iframe src="https://drive.google.com/file/d/1kg2MRR9_xzR-eTt5mVhyzC6h8DotFnTt/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5"
-        title="Lecture 2"
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
+
+<h1>Welcome to Dr galaly Website</h1>
+
+<section id="physics">
+    <br>
+    <h1>Physics</h1>
+    <hr>
+
+    <p>ch1</p>
+    <iframe src="https://drive.google.com/file/d/1bf7FEp39-qWt0xV-krIT3ZX8K1fhY1-o/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            title="Physics Lecture 1"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+
+    <p>ch2</p>
+    <iframe src="https://drive.google.com/file/d/1bf7FEp39-qWt0xV-krIT3ZX8K1fhY1-o/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            title="Physics Lecture 2"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+
+    <p>ch3</p>
+    <iframe src="https://drive.google.com/file/d/1kg2MRR9_xzR-eTt5mVhyzC6h8DotFnTt/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            title="Physics Lecture 3"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+</section>
+
+<section id="math">
+    <br>
+    <h1>Math</h1>
+    <hr>
+
+    <p>ch6.123</p>
+    <iframe src="https://drive.google.com/file/d/1mdjWIFKl617YyBaJlKY-8IcKS2n7Wnqs/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            title="Math Lecture 1"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+</section>
+
 <footer style="text-align: center;">
     <p>&copy; 2026 Dr galaly. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
